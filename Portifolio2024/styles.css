@@ -35,3 +35,17 @@ header {
         }
     }
 }
+
+section {
+    background-image: radial-gradient(#470964, #791fd3);
+    height: 100vh;
+    position: relative;
+}
+
+.arrows {
+    & button {
+        & img {
+            width: 100px;
+        }
+    }
+}
